@@ -49,6 +49,12 @@
     font-weight: 700;
 }
 
+.descricao__estrelas {
+    color: var(--laranja);
+    font-weight: 700;
+    padding-bottom: 0.5em;
+}
+
 .descricao__titulo-livro {
     color: var(--azul);
     font-size: 18px;
@@ -58,10 +64,17 @@
 
 .descricao__texto {
     font-size: 14px;
+    line-height: 21px;
+    margin-right: 1em;
+}
+
+.descricao__imagem {
+    border-left: 0.4em;
 }
 
 .botoes__item {
-    margin: 0 0.5em;
+    transform: scale(0.7);
+    margin: 1em 0.5em;
 }
 
 .botoes__ancora {
@@ -70,4 +83,5 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+    margin-top: 1em;
 }
