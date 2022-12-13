@@ -108,7 +108,37 @@
         margin: 2em auto;
     }
 
-    .swiper-slide {
-        scale: 70%;
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 1em 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin-top: 2em;
+    }
+
+    .card {
+       margin: 6em 0 0 3em;
+       width: 60%;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+    }
+
+    .descricao {
+        margin-right: 2em;
+    }
+
+    .swiper {
+        width: 50%;
     }
 }

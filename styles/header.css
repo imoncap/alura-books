@@ -56,15 +56,7 @@
     text-transform: uppercase;
 }
 
-.container__botao {
-    display: none;
-}
-
-.container__titulo {
-    display: none;
-}
-
-.opcoes {
+.container__botao, .container__titulo, .opcoes, .container__texto {
     display: none;
 }
 
@@ -117,4 +109,27 @@
 
     
     
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+        font-size: 20px;
+    }
+
+    .cabecalho {
+        padding: 0 3em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+        padding-left: 2em;
+    }
+
+    .container__texto {
+        display: block;
+    }
 }
